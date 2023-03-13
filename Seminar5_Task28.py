@@ -11,6 +11,6 @@ def Summ(a,b) :
         return a
     return 1 + Summ(a, b - 1)
 
-a = int(input(''))
-b = int(input(''))
+a = int(input('Введите первое число: '))
+b = int(input('Введите второе слагаемое: '))
 print(Summ(a,b))
